@@ -1,0 +1,142 @@
+@media(max-width:370px) {
+    .cont::after {
+        right: -316px;
+        transform: rotateZ(-32deg);
+        height: 600;
+        width: 464%;
+        bottom: -558px;
+    }
+    /*start a scound section*/
+    .box li{
+        margin: 0 0 20 0;
+    }
+}
+
+@media(max-width:570px) {
+    .nav .logo {
+        padding: 0;
+    }
+
+    .nav .a {
+        height: 109px;
+    }
+
+    .Fcont h2 {
+        font-size: 32px;
+    }
+
+    .Fcont p {
+        font-size: 13px;
+
+    }
+
+    .cont::after {
+        bottom: -493px;
+        right: -271%;
+        transform: rotateZ(-24deg);
+        padding: 408px;
+    }
+
+.S-cont{
+    height: 400px;
+    background-position: center;
+    width: 100%;
+}
+    /*start a scound section*/
+    .box li{
+        margin: 0 0 20 0;
+    }
+
+}
+
+@media(min-width:570px) and (max-width:800px) {
+
+
+    .Fcont h2 {
+        font-size: 44px;
+    }
+
+    .Fcont p {
+        font-size: 15px;
+    }
+
+    .S-cont {
+        height: 400px;
+        background-position: center;
+        width: 100%
+    }
+    /*start a scound section*/
+    .box li{
+        margin: 0 0 20 0;
+    }
+}
+@media(min-width:571px) and (max-width:767px){
+    .cont::after{
+        bottom: -76%;
+    }
+
+}
+@media(min-width:768px) and (max-width:800px){
+    .cont::after{
+        bottom: -118%;
+    }
+    .S-cont {
+        height: 701px;
+    }
+}
+@media(min-width:801px) and (max-width:1021px){
+
+.S-cont {
+    height: 700px;
+    width: 100%;
+}
+.Fcont h2{
+    font-size: 42px;  
+}
+.Fcont p{
+    font-size: 14px;  
+}
+.cont::after {
+    transform: rotateZ(-18deg);
+    bottom: -152%;
+    padding: 38%;
+    right: -35%;
+    width: 508%;
+    height: 104%;
+}
+   /*start a scound section*/
+   .box ul{
+    margin: 0 50;
+   }
+   .box li{
+
+    margin-right: 4%;
+}
+}
+@media(min-width:1022px){
+  .cont{
+    padding: 70px 0;
+  }
+    .S-cont{
+        height: 650px;
+        width: 100%;
+        background-size: contain;
+    }
+
+    .Fcont h2 {
+        font-size: 60px;
+    }
+    .Fcont p{
+        font-size: 16px;
+    }
+    .cont::after {
+        left: -55%;
+        bottom: 0;
+        padding: 33%;
+    
+        }
+/*start a scound section*/
+.productive h2 {
+    font-size: 39px;
+}
+}
